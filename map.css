@@ -1,0 +1,30 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 615px;
+}
+
+.u-section-1 .u-map-1 {
+  width: 1118px;
+  height: 589px;
+  margin: 8px auto 18px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-map-1 {
+    width: 570px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-map-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-map-1 {
+    width: 340px;
+  }
+}map{
+	border:1px;
+	border-radius:7px;
+}
