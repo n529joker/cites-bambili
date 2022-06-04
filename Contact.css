@@ -1,6 +1,19 @@
  .u-section-1 {
   background-image: linear-gradient(#f2f2f2, #f2f2f2);
 }
+.to-map{
+  background:#41807c;
+}
+.imagez .btn-whatsapp{
+  background-color: #41807c;
+  width:100%;
+  text-align: center;
+  display: flex;
+}
+.imagez button i{
+  color:#fff;
+  text-align: center;
+}
 
 .u-section-1 .u-sheet-1 {
   min-height: 2470px;
