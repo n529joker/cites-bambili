@@ -1,3 +1,6 @@
+html{
+  scroll-behavior:smooth;
+}
 .u-section-1 .u-sheet-1 {
   min-height: 805px;
 }
