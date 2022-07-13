@@ -7,7 +7,7 @@ html{
 
 .u-section-1 .u-image-1 {
   height: 624px;
-  margin-top: 10%;
+  margin-top: 100px;
   margin-bottom: 0;
   object-position: 50% 0%;
   filter: brightness(0.38);
@@ -28,10 +28,13 @@ html{
   font-size: 0.875rem;
   letter-spacing: 1px;
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: -300px;
-  background-image: none;
-  border:1px white;
-  margin: 111px auto 0;
+  --animation-custom_in-translate_y: 300px;
+  -animation-custom_in-opacity: 0;
+  -animation-custom_in-rotate: 0deg;
+  -animation-custom_in-scale: 1;
+  
+  margin:36px auto 0;
+  padding:9px 47px 11px;
 }
 
 .u-section-1 .u-text-2 {
