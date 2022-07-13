@@ -13,6 +13,9 @@ html{
   filter: brightness(0.38);
   box-shadow: -2px 2px 8px 0 rgba(128,128,128,0.8);
 }
+.u-custom-menu .u-dark{
+  background:#fff;
+}
 
 .u-section-1 .u-text-1 {
   font-weight: 400;
