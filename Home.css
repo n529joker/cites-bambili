@@ -7,11 +7,11 @@ html{
 
 .u-section-1 .u-image-1 {
   height: 624px;
-  margin-top: 10px;
+  margin-top: 10%;
   margin-bottom: 0;
   object-position: 50% 0%;
   filter: brightness(0.38);
-  box-shadow: -2px 2px 8px 0 rgba(128,128,128,0.7);
+  box-shadow: -2px 2px 8px 0 rgba(128,128,128,0.8);
 }
 
 .u-section-1 .u-text-1 {
@@ -30,7 +30,7 @@ html{
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: -300px;
   background-image: none;
-  border-style: none;
+  border:1px white;
   margin: 111px auto 0;
 }
 
