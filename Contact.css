@@ -12,6 +12,10 @@
 .imagez button i{
   color:#fff;
 }
+.u-container-layout .btn-whatsapp{
+ color:#fff; 
+ white-space: nowrap;
+}
 
 .u-section-1 .u-sheet-1 {
   min-height: 2470px;
