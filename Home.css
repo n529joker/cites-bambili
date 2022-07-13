@@ -10,7 +10,7 @@ html{
   margin-top: 0;
   margin-bottom: 0;
   object-position: 50% 0%;
-  filter: brightness(0.6);
+  filter: brightness(0.3);
   box-shadow: -2px 2px 8px 0 rgba(128,128,128,1);
 }
 
