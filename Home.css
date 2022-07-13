@@ -39,12 +39,12 @@ html{
 
 .u-section-1 .u-text-2 {
   font-size: 1.875rem;
-  font-weight: 700;
+  font-weight: 600;
   background-image: none;
-  --animation-custom_in-translate_x: -300px;
-  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-translate_x: 300px;
+  --animation-custom_in-scale: 1;
   font-style: normal;
-  margin: 155px 145px 60px 235px;
+  margin: 102px auto 0;
 }
 
 @media (max-width: 1199px) {
