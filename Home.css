@@ -49,6 +49,9 @@ html{
   font-style: normal;
   margin: 102px auto 0;
 }
+.u-nav-container-collapse ul li a{
+  color:#03989e;
+}
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
