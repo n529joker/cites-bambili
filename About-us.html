@@ -94,7 +94,7 @@ box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important
     <input type="text" class="form-control" id="msg">
     <label class="form-label" for="exampleMsg1">Enter your message</label>
   </div>
-  <button type="submit" class="btn btn-secondary">Submit</button>
+  <button type="submit" class="btn btn-secondary" id="smt">Submit</button>
 </form>        
         <footer class="u-align-center u-border-2 u-border-grey-25 u-border-no-bottom u-border-no-left u-border-no-right u-clearfix u-custom-border u-footer u-white u-footer" id="sec-a886"><div class="u-clearfix u-sheet u-valign-middle-xs u-sheet-1">
         <div class="container text-center">
@@ -102,5 +102,25 @@ box-shadow: 2px 2px 8px 0 rgba(128,128,128,1) !important
       </div>
       </div>
     </footer>
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+	  <script>
+    document.getElementId('smt').addEventListener('click',()=>{
+    var name = document.getElementById('name').value
+    var mail = document.getElementById('mail').value
+    var subject = document.getElementById('subject').value
+    var msg = document.getElementById('msg').value
+    Email.send({
+    Host : "www.netlify.com",
+    Username : "ngengerawlings20@gmail.com",
+    Password : "LordJoker(004)",
+    To : 'infinitytech004.com',
+    From : mail,
+    Subject : name+subject,
+    Body : msg
+    }).then(
+      message => alert(message)
+    );
+    });
+	  </script>
   </body>
 </html>
